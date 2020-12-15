@@ -7,22 +7,217 @@
     <link rel="stylesheet" href="./dist/style.css" />
   </head>
   <body>
-    <h1>Dit is een test</h1>
-    <h2>Dit is een test</h2>
-    <h3>Dit is een test</h3>
-    <h4>Dit is nog een titelkes</h4>
-    <button>
-      <svg class="icon">
-        <use xlink:href="./icons/symbol-defs.svg#icon-emo-devil"></use>
-      </svg>
-      <span>click me</span>
-    </button>
-    <button>
-      <svg class="icon icon-emo-displeased">
-        <use xlink:href="./icons/symbol-defs.svg#icon-emo-displeased"></use>
-      </svg>
-      <span>click me</span>
-    </button>
+    <header>
+      <div class="container">
+        <nav>
+          <a href="#" class="logo"><img src="./src/images/logo.png" alt=""/></a>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="slider">
+      <div class="container">
+        <img src="./src/images/slideimg.jpg" alt="some portfolio thingy" />
+        <button class="sliderbtn prev">
+          <svg class="icon icon-angle-circled-left">
+          <use xlink:href="./icons/symbol-defs.svg#icon-angle-circled-left"></use>
+        </svg>
+      </button>
+        <button href="#" class="sliderbtn next">
+          <svg class="icon icon-angle-circled-right"><use xlink:href="./icons/symbol-defs.svg#icon-angle-circled-right"></use></svg>
+
+        </button>
+      </div>
+    </section>
+
+    <section class="cases">
+      <section class="container">
+        <h1>Our Services</h1>
+        <p>
+          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
+          Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
+          lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
+          tortor mauris condimentum nibh.
+        </p>
+            <section class="services">
+              <div clas="around">
+                <svg class="icon icon-heart-empty"><use xlink:href="./icons/symbol-defs.svg#icon-heart-empty"></use></svg>
+              <article>
+                <h2>Custom Design</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis eligendi aperiam, omnis explicabo similique sit.
+                </p>
+              
+              </article>
+            </div>
+            <div class="around">
+              <svg class="icon icon-heart-empty"><use xlink:href="./icons/symbol-defs.svg#icon-heart-empty"></use></svg>
+
+              <article>
+                <h2>Inovative Ideas</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis eligendi aperiam, omnis explicabo similique sit.
+                </p>
+              </article>
+            </div>
+
+            <div class="around">
+              <svg class="icon icon-heart-empty"><use xlink:href="./icons/symbol-defs.svg#icon-heart-empty"></use></svg>
+
+              <article>
+                <h2>Inovative Ideas</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis eligendi aperiam, omnis explicabo similique sit.
+                </p>
+              </article>
+            </div>
+              <article>
+                <h2>Responsive Layout</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis eligendi aperiam, omnis explicabo similique sit.
+                </p>
+              </article>
+              <article>
+                <h2>24 / 7 Support</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis eligendi aperiam, omnis explicabo similique sit.
+                </p>
+              </article>
+              <article>
+                <h2>Feel Like A Star</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis eligendi aperiam, omnis explicabo similique sit.
+                </p>
+              </article>
+            </section>
+          </section>
+        </section>
+        <section class="portfolio">
+          <div class="container">
+            <h1>Portfolio</h1>
+            <p>
+              Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
+              Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
+              lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
+              tortor mauris condimentum nibh.
+            </p>
+          </div>
+          
+          <div class="container">
+            <ul>
+              <li><a href="#">All</a></li>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">Artwork</a></li>
+            </ul>
+          </div>
+          <div class="container"> 
+            <section class="photos grow">
+              <a class="grow" href=""><img src="./src/images/img1.jpg" alt=""></a>
+              <a href=""><img src="./src/images/img2.jpg" alt=""></a>
+              <a href=""><img src="./src/images/img3.jpg" alt=""></a>
+              <a href=""><img src="./src/images/img4.jpg" alt=""></a>
+              <a href=""><img src="./src/images/img5.jpg" alt=""></a>
+              <a href=""><img src="./src/images/img6.jpg" alt=""></a>
+              <a href=""><img src="./src/images/img7.jpg" alt=""></a>
+              <a href=""><img src="./src/images/img8.jpg" alt=""></a>
+              <a href=""><img src="./src/images/img9.jpg" alt=""></a>
+              <a href=""><img src="./src/images/img10.jpg" alt=""></a>
+              <a href=""><img src="./src/images/img11.jpg" alt=""></a>
+              <a href=""><img src="./src/images/img12.jpg" alt=""></a>
+            </section>
+          </div>
+      </section>
+      <section class="profiles">
+        <div class="container">
+        <h1>About us</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        <div class="profilesect">
+        <div class="card">
+          <img src="./src/images/profile1.jpg" alt="">
+          <h2>gert</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, neque.</p>
+          <div class="socials">
+           <a href=""><svg class="icon icon-gplus"><use xlink:href="./icons/symbol-defs.svg#icon-gplus"></use></svg></a>
+          <a href=""><svg class="icon icon-linkedin"><use xlink:href="./icons/symbol-defs.svg#icon-linkedin"></use></svg></a>
+           <a href=""><svg class="icon icon-facebook"><use xlink:href="./icons/symbol-defs.svg#icon-facebook"></use></svg></a>
+
+          </div>
+        </div>
+        <div class="card">
+          <img src="./src/images/profile2.jpg" alt="">
+          <h2>kurt</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <div class="socials">
+            <a href=""><svg class="icon icon-gplus"><use xlink:href="./icons/symbol-defs.svg#icon-gplus"></use></svg></a>
+           <a href=""><svg class="icon icon-linkedin"><use xlink:href="./icons/symbol-defs.svg#icon-linkedin"></use></svg></a>
+            <a href=""><svg class="icon icon-facebook"><use xlink:href="./icons/symbol-defs.svg#icon-facebook"></use></svg></a>
+ 
+           </div>
+        </div>
+        <div class="card">
+          <img src="./src/images/profile3.jpg" alt="">
+          <h2>tina</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, corrupti.</p>
+          <div class="socials">
+            <a href=""><svg class="icon icon-gplus"><use xlink:href="./icons/symbol-defs.svg#icon-gplus"></use></svg></a>
+           <a href=""><svg class="icon icon-linkedin"><use xlink:href="./icons/symbol-defs.svg#icon-linkedin"></use></svg></a>
+            <a href=""><svg class="icon icon-facebook"><use xlink:href="./icons/symbol-defs.svg#icon-facebook"></use></svg></a>
+           </div>
+        </div>
+      </div>
+      </div>
+      </section>
+      <section class="form">
+        <div class="container">
+        <h1>Get a quote</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita amet tenetur et illum nemo accusamus!</p>
+      <div class="formspan">
+        <div class="formtxt">
+          <input type="text" id="fname" name="fname">
+          <input type="text" id="fname" name="fname">
+          <input type="text" id="fname" name="fname">
+          <textarea rows="10" >
+          </textarea>
+        </div>
+        <div class="info">
+          <h2>contact info</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi accusamus incidunt provident molestias iste et autem obcaecati ratione dolore mollitia?</p>
+          <p>
+          <svg class="icon icon-gplus"><use xlink:href="./icons/symbol-defs.svg#icon-gplus"></use></svg>
+          <span>Lorem ipsum dolor sit amet consectetur</span><br>
+        </p>
+          <svg class="icon icon-gplus"><use xlink:href="./icons/symbol-defs.svg#icon-gplus"></use></svg>
+          <span>Lorem ipsum dolor sit </span><br>
+          <svg class="icon icon-gplus"><use xlink:href="./icons/symbol-defs.svg#icon-gplus"></use></svg>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi accusamus incidunt provident molestias iste et autem obcaecati ratione dolore mollitia?</span><br>
+        </div>
+      </div>
+      </div>
+      </section>
+      <footer>
+        <div class="container">
+        <span class="copiright">copiright 2017</span>
+        <div class="footericons">
+          <a href=""><svg class="icon icon-gplus"><use xlink:href="./icons/symbol-defs.svg#icon-gplus"></use></svg></a>
+          <a href=""><svg class="icon icon-linkedin"><use xlink:href="./icons/symbol-defs.svg#icon-linkedin"></use></svg></a>
+           <a href=""><svg class="icon icon-facebook"><use xlink:href="./icons/symbol-defs.svg#icon-facebook"></use></svg></a>
+        </div>
+      </div>
+      </footer>
+
     <script src="./icons/svgxuse.js"></script>
   </body>
 </html>
